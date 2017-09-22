@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "APLProduct.h"
+#import "TableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (@available(iOS 11.0, *)) {
+        [[UINavigationBar appearance] setPrefersLargeTitles:true];
+    } else {
+        // Fallback on earlier versions
+    }
+    
     return YES;
 }
 

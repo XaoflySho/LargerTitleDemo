@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  LargerTitleDemo
 //
 //  Created by 邵晓飞 on 2017/9/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-
